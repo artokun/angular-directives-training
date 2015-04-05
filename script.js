@@ -1,10 +1,11 @@
 /*global angular*/
 var app = angular.module('myApp', []);
 
-app.directive('yoYo', function () {
-  'use strict';
+app.directive('optIn', function () {
   return {
-    template: '<strong>Yo!</strong>',
-    restrict: 'E'
+    templateUrl: 'opt-in.html',
+    restrict: 'E',
+    transclude: true,
+    replace: true
   };
 });

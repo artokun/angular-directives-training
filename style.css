@@ -1,0 +1,17 @@
+.brand-logo {
+  background-image: url('http://placehold.it/200x200');
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.opt-in-container {
+  border: #333 1px solid;
+  padding: 20px;
+}
+
+.opt-in-container input {
+  width: 100%;
+  margin-top: 7px
+}
